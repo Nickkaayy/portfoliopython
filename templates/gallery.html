@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" href="/static/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+
+
+</head>
+	<body>
+
+		<div id ="p3tprect">
+			<div id="demo" style="z-index: 1;font-size:200px"></div>
+				<div class="logowords">
+		 			<a>instagram<br>@nicksportraits</a>
+		 			<a>facebook<br>facebook.com/nick</a>
+		 			<a>gmail<br>nicholimsg@gmail.com</a>
+		 			<a>youtube<br>youtube.com/martynnick</a>
+				</div>
+	 		<div class= "p3logos">
+
+				<a class = "logo" href = "http://www.instagram.com" id = "p3instagram"><img src = "/static/i.png"></a>
+				<a class = "logo" href = "http://www.facebook.com" id = "p3facebook"><img src = "/static/f.png"></a>
+				<a class = "logo" href = "http://www.gmail.com" id = "p3email"><img src = "/static/e.png"></a>
+				<a class = "logo" href = "http://www.youtube.com" id = "p3youtube"><img src = "/static/y.png"></a>
+			</div>
+			<div class= "p3navbar">
+				<a href = "homehome.html" id = "p3home">home</a>
+				<a href = "projects.html" id = "p3projects">projects</a>
+				<a href = "gallery.html" id = "p3gallery">gallery</a>
+				<a href = "education.html" id = "p3education">edu &#38; work</a>
+				<a href="javascript:void(0);" onclick= "contact();" id = "p3contacts">contacts</a>
+			</div>
+		</div>
+
+		<section class="p3btmarea">
+			<img id="p3bkg" src= "/static/drawings/drawbkg1.jpg">
+	    </section>
+
+	    	
+
+	    <section class= "p3gallerypart">
+	    	<img id = "disp" src = "/static/s1.jpg">
+	    	<div id= "p3options">
+	    		<p1 id = "p3scrollto1"><b>Art</b></p1>
+	            <img onclick='changeImage("1","/static/drawings/drawgal1.jpg");' src = "/static/drawings/drawgal1.jpg">
+	            <img onclick='changeImage("2","/static/drawings/drawgal2.jpg");' src = "/static/drawings/drawgal2.jpg">
+	            <img onclick='changeImage("3","/static/drawings/drawgal3.jpg");' src = "/static/drawings/drawgal3.jpg">
+	            <img onclick='changeImage("4","/static/drawings/drawgal4.jpg");' src = "/static/drawings/drawgal4.jpg">
+	            <img onclick='changeImage("5","/static/drawings/drawgal5.jpg");' src = "/static/drawings/drawgal5.jpg">
+	    		<p2 id = "p3scrollto2"><b>KMC</b></p2>
+	            <img onclick='changeImage("6","/static/kmc/kmcgal1.jpg");' src = "/static/kmc/kmcgal1.jpg">
+	            <img onclick='changeImage("7","/static/kmc/kmcgal2.jpg");' src = "/static/kmc/kmcgal2.jpg">
+	            <img onclick='changeImage("8","/static/kmc/kmcgal3.jpg");' src = "/static/kmc/kmcgal3.jpg">
+	            <img onclick='changeImage("9","/static/kmc/kmcgal4.jpg");' src = "/static/kmc/kmcgal4.jpg">
+	            <img onclick='changeImage("10","/static/kmc/kmcgal5.jpg");' src = "/static/kmc/kmcgal5.jpg">
+	            <img onclick='changeImage("9","/static/coding/codegal1.jpg");' src = "/static/coding/codegal1.jpg">
+	            <img onclick='changeImage("10","/static/coding/codegal2.jpg");' src = "/static/coding/codegal2.jpg">
+	            <img onclick='changeImage("11","/static/coding/codegal3.jpg");' src = "/static/coding/codegal3.jpg">
+	            <img onclick='changeImage("12","/static/coding/codegal4.jpg");' src = "/static/coding/codegal4.jpg">
+	    		<p3 id = "p3scrollto3"><b>Vincitore</b></p3>
+	            <img onclick='changeImage("13","/static/vinci/vincigal1.jpg");' src = "/static/vinci/vincigal1.jpg">
+	            <img onclick='changeImage("14","/static/vinci/vincigal2.jpg");' src = "/static/vinci/vincigal2.jpg">
+	            <img onclick='changeImage("15","/static/vinci/vincigal3.jpg");' src = "/static/vinci/vincigal3.jpg">
+	    		<p4 id = "p3scrollto4"><b>Engineering</b></p4>
+	            <img onclick='changeImage("17","/static/robby/robbygal1.jpg");' src = "/static/robby/robbygal1.jpg">
+	            <img onclick='changeImage("18","/static/robby/robbygal2.jpg");' src = "/static/robby/robbygal2.jpg">
+	            <img onclick='changeImage("19","/static/robby/robbygal3.gif");' src = "/static/robby/robbygal3.gif">
+	            <img onclick='changeImage("20","/static/robby/robbygal4.jpg");' src = "/static/robby/robbygal4.jpg">
+	            <img onclick='changeImage("21","/static/robby/robbygal5.jpg");' src = "/static/robby/robbygal5.jpg">
+	            <img onclick='changeImage("22","/static/robby/robbygal6.jpg");' src = "/static/robby/robbygal6.jpg">
+	            <img onclick='changeImage("23","/static/robby/robbygal7.jpg");' src = "/static/robby/robbygal7.jpg">
+	            <img onclick='changeImage("24","/static/mmr/mmrgal1.jpg");' src = "/static/mmr/mmrgal1.jpg">
+	            <img onclick='changeImage("25","/static/mmr/mmrgal2.jpg");' src = "/static/mmr/mmrgal2.jpg">
+	            <img onclick='changeImage("26","/static/mmr/mmrgal3.jpg");' src = "/static/mmr/mmrgal3.jpg">
+	            <img onclick='changeImage("27","/static/mmr/mmrgal4.jpg");' src = "/static/mmr/mmrgal4.jpg">
+	            <img onclick='changeImage("28","/static/mmr/mmrgal5.jpg");' src = "/static/mmr/mmrgal5.jpg">
+	            <img onclick='changeImage("29","/static/mmr/mmrgal6.jpg");' src = "/static/mmr/mmrgal6.jpg">
+        	</div>
+        </section>
+
+
+
+		<section>
+			<div class= "p3text">
+
+				<h1 id="p3title">Gallery.</h1>
+				<p1 id="p3para" >Im a para.<br><br>John Smith is I. Im pretty skillful at golf and treasure huntingrelated activities. My mom says I am special. That makes me feel special.John Smith is I. Im pretty skillful at golf and treasure huntingrelated activities. My mom says I am special.</p1>
+			</div>
+		</section>
+
+
+		<section>
+			<div class ="p3btmrect">
+				<p2 id="cr">&copy; Copyright 2020-2020.<br>All rights reserved. Programmed and developed by Nicholas Lim.</p2>
+			</div>
+		</section>
+
+		
+	<script type="text/javascript" src="/static/javascript.js">
+	</script>
+
+
+	</body>
+</html>
